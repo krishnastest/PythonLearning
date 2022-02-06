@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item number": 1,
+      "type": "fruit",
+      "name": "Apple",
+      "price": 150,
+      "unit" : "Kg"
+    },
+    {
+      "item number": 2,
+      "type": "milk",
+      "name": "Milk",
+      "price": 60,
+      "unit" : "Litres"
+    },
+    {
+      "item number": 3,
+      "type": "newspaper",
+      "name": "NewsPaper",
+      "price": 5,
+      "unit" : "Piece"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "item number" : 1,
+      "hasgst": false,
+      "name": "Rice",
+      "price": 150
+    },
+    {
+      "item number" : 2,
+      "hasgst": false,
+      "name": "Sugar",
+      "price": 42
+    },
+    {
+      "item number" : 3,
+      "hasgst": false,
+      "name": "Makhana",
+      "price": 140
+    },
+    {
+      "item number" : 4,
+      "hasgst": false,
+      "name": "Soyabean",
+      "price": 80
+    },
+    {
+      "item number" : 5,
+      "hasgst": false,
+      "name": "Toast",
+      "price": 45
+    },
+    {
+      "item number" : 6,
+      "hasgst": true,
+      "name": "Pepsi",
+      "price": 100
+    },
+    {
+      "item number" : 7,
+      "hasgst": true,
+      "name": "Lays",
+      "price": 40
+    },
+    {
+      "item number" : 8,
+      "hasgst": true,
+      "name": "Olive Oil",
+      "price": 1000
+    },
+    {
+      "item number" : 9,
+      "hasgst": true,
+      "name": "Pasta",
+      "price": 400
+    },
+    {
+      "item number" : 10,
+      "hasgst": true,
+      "name": "Maggi",
+      "price": 400
+    }
+  ]
+}

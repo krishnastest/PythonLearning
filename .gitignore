@@ -1,0 +1,13 @@
+# created by virtualenv automatically
+# Editors
+.vscode/
+.idea/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
