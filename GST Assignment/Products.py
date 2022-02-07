@@ -7,7 +7,7 @@ class Products:
     #     self.gst = gst
     #     self.hasgst = hasgst
 
-    def jsoninput(self, file = "products.json"):
+    def jsoninput(self, file = "GST Assignment/products.json"):
         f = open(file)
         data = json.load(f)
         f.close()
