@@ -22,8 +22,8 @@ class CustomerEWallet(Wallet):
     def __bool__(self, total_amount):
         return self.getwalletbalance() > total_amount
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     obj1 = CustomerEWallet()
 
     obj1.__bool__()
