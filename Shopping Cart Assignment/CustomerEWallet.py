@@ -1,4 +1,4 @@
-import Wallet
+from Wallet import Wallet
 
 
 class CustomerEWallet(Wallet):
@@ -12,18 +12,20 @@ class CustomerEWallet(Wallet):
 
     def addwalletbalance(self, add_amount):
         self.balance += add_amount
+        return self.balance
 
     def deductamount(self, deduct_amount):
         if self.balance >= deduct_amount:
             self.balance -= deduct_amount
         else:
             print("Insufficient funds in Wallet")
+        return self.balance
 
     def __bool__(self, total_amount):
         return self.getwalletbalance() > total_amount
 
 
 if __name__ == '__main__':
-    obj1 = CustomerEWallet()
+    obj1 = CustomerEWallet(100)
 
-    obj1.__bool__()
+    obj1.__bool__(10)

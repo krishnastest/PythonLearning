@@ -1,8 +1,9 @@
-import Products
+from abc import ABC
+
+from Products import Products
 
 
-class ShoppingCart(Products):
-    product = Products()
+class ShoppingCart(Products, ABC):
 
     def __init__(self):
         self.products = []
@@ -18,7 +19,7 @@ class ShoppingCart(Products):
         self.products.remove(product)
 
     def getsubtotal(self, product):
-        return  * product.get_quantity
+        return self.product.get_price() * product.get_quantity()
 
     def gettotalamount(self):
         total = 0
@@ -28,3 +29,8 @@ class ShoppingCart(Products):
 
     def isitemavailable(self, item):
         stock = 8
+        pass
+
+
+if __name__ == '__main__':
+    obj = ShoppingCart()

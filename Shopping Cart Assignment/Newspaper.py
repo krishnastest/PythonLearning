@@ -1,8 +1,8 @@
 import enum
-import Products
+from ProductsAbs import ProductsAbs
 
 
-class NewsPaper(Products):
+class NewsPaper(ProductsAbs):
 
     def __init__(self, name, price, quantity, categories):
         self.name = name
